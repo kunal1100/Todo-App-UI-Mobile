@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: #F7F7F7;
+}
+
+.navbar{
+    width: 100%;
+    background-color: white;
+    height: 75px;
+    position: relative;
+    top: -15px;
+    display: flex;
+    align-items:center;
+}
+.navbar h1{
+    font-size: 32px;
+    margin-left: 100px;
+}
+.addtask{
+    position: absolute;
+    left: 900px;
+    display: flex;
+    align-items: center;
+}
+.addtask a{
+    font-size: 20px;
+    color: black;
+    margin-left: 10px;
+}
+.cards1{
+    height: 250px;
+    width: 300px;
+    background:white;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 150px;
+    margin-top: 100px;
+    padding: 10px;
+}
+.cards2{
+    height: 250px;
+    width: 300px;
+    background:white;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 100px;
+    padding: 10px;
+}
+.cards3{
+    height: 250px;
+    width: 300px;
+    background:white;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 100px;
+    padding: 10px;
+}
+.cards4{
+    height: 250px;
+    width: 300px;
+    background:white;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 150px;
+    margin-top: 50px;
+    padding: 10px;
+}
+.cards5{
+    height: 250px;
+    width: 300px;
+    background:white;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 50px;
+    padding: 10px;
+}
+.cards h3{
+    color: #00A5EC;
+    font-size: 22px;
+    position: relative;
+    margin-left: 20px;
+}
+.cards input{
+    margin-left: 0px;
+    margin-top: 20px;
+}
+.cards:hover{
+    z-index: 1;
+    box-shadow: 0 8px 50px lightgray;
+    transform: scale(1.05);
+}
+@media only screen and (min-width: 200px) and (max-width:767px) {
+    .navbar{
+        width: 100%;
+        background-color: white;
+        height: 120px;
+        position: relative;
+        top: -15px;
+        display: flex;
+        align-items:center;
+        box-shadow: 0 8px 50px lightgray;
+    }
+    .navbar h1{
+        font-size: 42px;
+        margin-left: 20px;
+    }
+    .addtask{
+        position: absolute;
+        left: 250px;
+        display: flex;
+        align-items: center;
+    }
+    #addimage{
+        width: 30px;
+        height: 30px;
+    }
+    #texttask{
+        display: none;
+    }
+    .cards1{
+        height: 550px;
+        width: 550px;
+        background:white;
+        border: 1px solid #EDEDED;
+        border-radius: 20px;
+        display: inline-block;
+        margin-left: 15px;
+        margin-top: 100px;
+        padding: 10px;
+    }
+    .cards2{
+        height: 550px;
+        width: 550px;
+        background:white;
+        border: 1px solid #EDEDED;
+        border-radius: 20px;
+        display: inline-block;
+        margin-left: 15px;
+        margin-top: 20px;
+        padding: 10px;
+    }
+    .cards3{
+        height: 550px;
+        width: 550px;
+        background:white;
+        border: 1px solid #EDEDED;
+        border-radius: 10px;
+        display: inline-block;
+        margin-left: 15px;
+        margin-top: 20px;
+        padding: 10px;
+    }
+    .cards4{
+        height: 550px;
+        width: 550px;
+        background:white;
+        border: 1px solid #EDEDED;
+        border-radius: 10px;
+        display: inline-block;
+        margin-left: 15px;
+        margin-top: 20px;
+        padding: 10px;
+    }
+    .cards5{
+        height: 550px;
+        width: 550px;
+        background:white;
+        border: 1px solid #EDEDED;
+        border-radius: 10px;
+        display: inline-block;
+        margin-left: 15px;
+        margin-top: 20px;
+        padding: 10px;
+    }
+    .cards1 h3{
+        color: #00A5EC;
+        font-size: 42px;
+        position: relative;
+        margin-left: 20px;
+    }
+    .cards1 input{
+        margin-left: 20px;
+        margin-top: 20px;
+        width: 38px;
+        height: 38px;
+    }
+    .cards1 label{
+        font-size: 28px;
+        position: relative;
+        top: -5px;
+    }
+    .cards2 h3{
+        color: #00A5EC;
+        font-size: 42px;
+        position: relative;
+        margin-left: 20px;
+    }
+    .cards2 input{
+        margin-left: 20px;
+        margin-top: 20px;
+        width: 38px;
+        height: 38px;
+    }
+    .cards2 label{
+        font-size: 28px;
+        position: relative;
+        top: -5px;
+    }
+    .cards3 h3{
+        color: #00A5EC;
+        font-size: 42px;
+        position: relative;
+        margin-left: 20px;
+    }
+    .cards3 input{
+        margin-left: 20px;
+        margin-top: 20px;
+        width: 38px;
+        height: 38px;
+    }
+    .cards3 label{
+        font-size: 28px;
+        position: relative;
+        top: -5px;
+    }
+    .cards4 h3{
+        color: #00A5EC;
+        font-size: 42px;
+        position: relative;
+        margin-left: 20px;
+    }
+    .cards4 input{
+        margin-left: 20px;
+        margin-top: 20px;
+        width: 38px;
+        height: 38px;
+    }
+    .cards4 label{
+        font-size: 28px;
+        position: relative;
+        top: -5px;
+    }
+    .cards5 h3{
+        color: #00A5EC;
+        font-size: 42px;
+        position: relative;
+        margin-left: 20px;
+    }
+    .cards5 input{
+        margin-left: 20px;
+        margin-top: 20px;
+        width: 38px;
+        height: 38px;
+    }
+    .cards5 label{
+        font-size: 28px;
+        position: relative;
+        top: -5px;
+    }
+}
